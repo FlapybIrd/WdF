@@ -1,0 +1,8 @@
+Using Dynamite v2:
+
+- Disable windows defender if you have problems running the program
+- Allow reCAPTCHA bypass
+- Accept the rules of general use
+- Wait while Dynamiter takes care of research nitros
+
+(It is possible that not all nitros are valid even if it remains rare)

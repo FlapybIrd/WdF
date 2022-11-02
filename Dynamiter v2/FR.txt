@@ -1,0 +1,8 @@
+Utilisation de Dynamiter v2 :
+
+- Désactiver windows defender si vous rencontrez des problèmes à l'execution du programme
+- Autoriser le bypass reCAPTCHA
+- Accepter les règles d'utilisation général
+- Patientez pendant que Dynamiter s'occupe des recherches nitros
+
+(Il est possible que tout les nitros ne soit pas valide même si cela reste rare)
